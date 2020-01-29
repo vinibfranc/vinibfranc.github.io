@@ -9,6 +9,7 @@
 	<meta name="keywords" content="Página, Vinícius, bioinformática, informática, biomédica">
 	<meta name="author" content="Vinícius Bonetti Franceschi">
     <meta name="robots" content="index, follow">
+    <meta name="referrer" content="origin">
     <title>Vinícius Bonetti Franceschi</title>
 
     <!-- favicon -->
@@ -429,7 +430,8 @@
                 <div class="feedback-form">
                     <h2>Get in touch</h2>
 
-                    <form id="contactForm" action="sendemail.php" method="POST">
+                    <!--<form id="contactForm" action="sendemail.php" method="POST">-->
+                    <form id="contactForm" action="http://formspree.io/vinibfranc@gmail.com" method="POST">
                         <div class="form-group">
                             <label for="InputName">Nome</label>
                             <input type="text" name="name" required="" class="form-control" id="InputName"
@@ -437,7 +439,7 @@
                         </div>
                         <div class="form-group">
                             <label for="InputEmail">Endereço de e-mail</label>
-                            <input type="email" name="email" required="" class="form-control" id="InputEmail"
+                            <input type="email" name="_replyto" required="" class="form-control" id="InputEmail"
                                    placeholder="E-mail">
                         </div>
                         <div class="form-group">
@@ -451,7 +453,7 @@
                                       placeholder="Sua mensagem"></textarea>
                         </div>
 
-                        <button type="submit" class="btn btn-primary">Enviar</button>
+                        <button type="submit" class="btn btn-primary" value="Send">Enviar</button>
                     </form>
                 </div>
                 <!-- .feedback-form -->
