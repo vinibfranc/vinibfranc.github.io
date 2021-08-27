@@ -440,11 +440,11 @@ button:focus,
 .portfolio-item .portfolio-info h3 {
     margin      : 0;
     line-height : 1;
-    color       : #000000;
+    color       : #ffffff;
     }
 
 .portfolio-item .portfolio-info small {
-    color : #000000;
+    color : #ffffff;
     }
 
 .portfolio-item:hover .portfolio-info {
